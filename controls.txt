@@ -1,0 +1,16 @@
+dt_0	0.0001
+dt_min	1.00E-07
+dt_max	10000
+dP_max	10000
+dS_max	0.01
+steady-state_dSdt	1.00E-10
+dt_down_f	0.5
+dt_up_f	1.5
+t_start	0
+t_end	432000000
+print_interval	86400000
+update_mode 	0
+solver_type	0
+abs_convg_SOR	0.01
+max_iter_SOR	400
+omega_SOR	1.9
