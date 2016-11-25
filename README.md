@@ -1,4 +1,7 @@
 # MFP
+
+![Preview](https://numericalenvironmental.files.wordpress.com/2016/07/compare-2d-vadose-zone-utchem.jpg?w=438&h=584)
+
 This is a D-language-based program (source code, executable, and input files) that models multiphase fluid flow (water, gas, NAPL) in one-, two-, or three-dimensional porous media. Capillary forces are only partially modeled (the liquid phases is modeled as a fluid with a composite average capillary curve, based on relative fluid saturations). Capillary forces in water-NAPL only systems are not considered at all.
 The simulator solves flux equations for each phase using small time steps, adjusting relatively permeability and storage factors as functions or pressure or saturation. The pressure equation is solved implicitly using a tri-diagonal for 1-D problems and successive over-relaxation for 2-D and 3-D problems. The program is an experimental work-in-progress and may converge slowly or not at all, depending on problem definition. It seems to work best when a gas phase is present; NAPL-water-only problems involving density and viscosity contrasts seem to run very slowly.
 
